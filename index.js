@@ -1,11 +1,11 @@
 
 // Import the functions you need from the SDKs you need
-import { GoToClaim } from "https://tenderpaw.github.io/jgo/functions.js";
+import { GoToClaim } from "../jgO/functions.js";
 import { getDocs, collection, getFirestore } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-firestore.js";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-app.js";
 import { getDatabase, ref, get } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-database.js";
 import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-auth.js";
-import {app, auth, googleAuthProvider, db, user} from "https://tenderpaw.github.io/jgo/dataManagement.js";
+import {app, auth, googleAuthProvider, db, user} from "../jgo/dataManagement.js";
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
