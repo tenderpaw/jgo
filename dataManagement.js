@@ -1,6 +1,6 @@
 
 // Import the functions you need from the SDKs you need
-import { GoToClaim } from "../functions.js";
+import { GoToClaim } from "./functions.js";
 import { getDocs, collection, getFirestore } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-firestore.js";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-app.js";
 import { getDatabase, ref, get } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-database.js";
