@@ -1,7 +1,7 @@
-import { GoToHome } from "../functions.js";
+import { GoToHome } from "../jgo/functions.js";
 import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-auth.js";
 import { getDocs, collection, where, query, addDoc } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-firestore.js";
-import { app, auth, googleAuthProvider, db, user, fetchClaimSettings} from "../dataManagement.js";
+import { app, auth, googleAuthProvider, db, user, fetchClaimSettings} from "../jgo/dataManagement.js";
 
 const storeBtnStyles = `
 	background-color: red;
